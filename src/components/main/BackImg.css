@@ -1,0 +1,31 @@
+.background-pic {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    background-color: rgba(21, 21, 21, 0);
+    z-index: 1;
+    gap: 300px;
+}
+.texts{
+    filter: blur(0.1px);
+    margin: 160px auto;
+    width: fit-content;
+}
+.animation-text ,.name-text{
+    font-size: 60px;
+    text-align: center !important;
+    color: #f1efef;
+    z-index: 1;
+    font-family: quick;
+}
+@media only screen and (max-width: 990px) {
+    .background-pic{
+        width: 100% !important;
+        z-index: 0;
+        background-position: center;
+    }
+    .animation-text{
+        display: none;
+    }
+}

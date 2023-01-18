@@ -1,0 +1,58 @@
+.navigate{
+    width: 140px;
+    margin: 0 auto;
+}
+.find-content{
+    gap: 20px;
+}
+a{
+    font-family: Bigmontseratti;
+    width: 100%;
+    color: #cdcdcd;
+}
+.find-content a{
+    background-repeat: no-repeat;
+    background-position-x: 6px;
+    background-position-y: center;
+    background-size: 16px;
+    padding: 6px 30px;
+    border-radius: 12px;
+    transition: all 0.7s;
+}
+.home{
+    background-image: url(../../../images/home-unactive.png);
+}
+.home:hover{
+    background-image: url(../../../images/home-active.png);
+}
+.about{
+    background-image: url(../../../images/user-unactive.png);
+}
+.about:hover{
+    background-image: url(../../../images/user-active.png);
+}
+.resume{
+    background-image: url(../../../images/cv-unactive.png);
+}
+.resume:hover{
+    background-image: url(../../../images/cv-active.png);
+}
+.portfolio{
+    background-image: url(../../../images/portfolio-unactive.png);
+}
+.portfolio:hover{
+    background-image: url(../../../images/portfolio-active.png);
+}
+.contact{
+    background-image: url(../../../images/contact-unactive.png);
+}
+.contact:hover{
+    background-image: url(../../../images/contact-active.png);
+}
+.find-content a:hover{
+    color: #2f16d1;
+    background-color: #cdcdcd;
+    border-radius: 12px;
+    transition: all 0.3s;
+    cursor: pointer;
+}

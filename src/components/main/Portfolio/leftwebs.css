@@ -1,0 +1,22 @@
+.webs{
+    width: 100%;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.webs img{
+    width: 300px;
+    box-shadow: -2px -2px 40px #5151525c;
+    border-radius:12px;
+}
+.webs a{
+    width: 300px;
+    
+}
+@media only screen and (max-width: 714px) {
+    .webs{
+        width: 300px !important;
+        margin: 0 auto !important;
+    }
+
+}

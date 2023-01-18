@@ -1,0 +1,36 @@
+.resume-wrap{
+    overflow: hidden;
+}
+.Resume{
+    width: 100%;
+    height: fit-content;
+   
+    padding: 0px 40px 30px 40px;
+    gap: 30px;
+    overflow: hidden;
+    color:white;
+}
+.Resume{
+    padding-top: 30px;
+ 
+}
+
+.column-wrap {
+    gap: 40px;
+    width: 50%;
+}
+.long-resume{
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+    .long-resume{
+        display: flex;
+        flex-direction: column !important;
+        width: 100%;
+    }
+    .column-wrap{
+        width: 100% !important;
+    }
+
+}
+

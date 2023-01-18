@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+ 
+}
+body{
+  color: #4a4a4a;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5; 
+  background-color: rgba(21, 21, 21, 0.89);
+}
+/* scroll style */
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 4px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #515152;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+/* Fonts  */
+@font-face {
+  font-family: "montseratti";
+  src: url(./fonts/MontserratAlternates-LightItalic.ttf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+@font-face {
+  font-family: "quick";
+  src: url(./fonts/newFont/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Bigmontseratti";
+  src: url(./fonts/MontserratAlternates-Light.ttf);
+}
+
+@font-face {
+  font-family: "lato";
+  src: url(./fonts/lato/Lato-Light.ttf);
+}
+h1,h2,h3{
+  font-weight: 400;
+}
+h1 {
+  font-size: 32px;
+  font-family: "lato";
+}
+h2 {
+  font-size: 28px;
+  font-family: "lato";
+}
+
+h3 {
+  font-size: 22px;
+  font-family: "lato";
+}
+p,
+label {
+  font-size: 18px;
+  font-family: "quick";
+}
+
+li {
+  font-family: "lato";
+}
+
+a {
+  font-family: "Bigmontseratti";
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.header{
+  width: 20% !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MainStyle{
+  display: flex;
+  flex-direction: row;
+}
+.Backgrounds{
+  width: 80%;
+}
+.burger-menu{
+  width: 50px;
+  height: 50px;
+  background-color: #515152;
+  z-index: 11;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }

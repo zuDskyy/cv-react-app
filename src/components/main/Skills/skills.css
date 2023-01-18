@@ -1,0 +1,63 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 30px 40px 30px 40px;
+    color:white;
+    background-color: rgba(21, 21, 21, 0.397);
+    gap: 30px;
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+    border-bottom: 1px solid white;
+}
+.skills.active{
+    transition: all 1.4s ease-in-out;
+    
+}
+.my_skills ul li {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    font-family: quick;
+}
+.my_skills ul li span {
+    width: 20px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 100%;
+}
+.my_skills ul{
+    width: 100%;
+    gap: 20px;
+}
+.my_skills ul li {
+    font-size: 22px;
+}
+.HTML{
+    background-image: url(../../../images/html-5.png);
+}
+.NODE{
+    background-image: url(../../../images/Node.png);
+}
+.CSS{
+    background-image: url(../../../images/css-3.png);
+}
+.SQL{
+    background-image: url(../../../images/sql.png);
+}
+.JAVASCRIPT{
+    background-image: url(../../../images/java-script.png);
+}
+.REACT{
+    background-image: url(../../../images/atom.png);
+}
+.ELECTRON{
+    background-image: url(../../../images/electron.png);
+}
+.TYPESCRIPT{
+    background-image: url(../../../images/typescript.png);
+}

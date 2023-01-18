@@ -1,0 +1,30 @@
+.profession {
+  width: 50%;
+}
+.profession h2 {
+  color: #eeeaea;
+  
+}
+.prof-div{
+  padding: 10px;
+  background-color: rgba(31, 30, 30, 0.589);
+   border-bottom: 3px solid white;
+ }
+.profession,
+.list-edu {
+  gap: 20px;
+  padding: 0px 40px 30px 40px;
+
+}
+.list-edu {
+  gap: 20px;
+  height: 100%;
+  border-left: solid 1px #604be6;
+ 
+}
+@media only screen and (max-width: 600px) {
+  .profession{
+      width: 100%;
+  }
+
+}
