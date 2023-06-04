@@ -13,14 +13,18 @@ h2{
     font-family: lato;
 }
 .header{
+
     width: 20%;
     height: 100%;
-    background-color: rgba(21, 21, 21, 0.89);
+    background-color: rgba(21, 21, 21, 0.863);
     position: fixed;
-    z-index: 1;
+    z-index: 30;
     padding: 10px;
+
+
 }
 .pic-social{
+   
     width: 100%;
     margin: 50px auto;
     gap: 30px;
@@ -51,7 +55,7 @@ h2{
     background-color: #515152;
     padding: 20px;
     border-radius: 50%;
-    transition: all 1s;
+
 }
 .social img{
     width: 24px;
@@ -67,8 +71,42 @@ h2{
     background-color: #3e3e9f;
     transition: all 0.1s;
 }
-@media only screen and (max-width: 990px) {
+.hidden,.header-burger,.header-mob{
+        display: none;
+    }
+   
+    
+    
+@media screen and (max-width: 990px) {
     .header{
+        display: none;
+    }
+    .header-mob{
+      display: block;
+      max-width :45%;
+      height: 100%;
+      background-color: rgb(21, 21, 21);
+      position: fixed;
+      z-index: 30;
+      padding: 10px;
+      transition:  1s;
+    }
+    .pic-social{
+       max-width: 100%;
+    }
+    .header-burger{
+        display: block;
+    }
+    
+    
+ 
+}
+
+
+
+
+@media screen and (max-width: 550px){
+    .header,.header-mob,.header-burger{
         display: none;
     }
 }

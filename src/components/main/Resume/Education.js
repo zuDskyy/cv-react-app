@@ -19,7 +19,7 @@ const Summary = () => {
                 </div>
                 <div className="edu-div " data-aos="fade-up">
                 <h3 data-aos="fade-up"> SCIENTIFIC CYBER SECURITY ASSOCIATION </h3>
-                <p data-aos="fade-up">SQL(2022/SEP-2022/OCT)</p>
+                <p data-aos="fade-up">MYSQL(2022/SEP-2022/OCT)</p>
                 </div>
                 <div className="edu-div " data-aos="fade-up" > <h3 data-aos="fade-up">GTU - Georgian Technical University</h3>
                 <p data-aos="fade-up">Law </p></div>

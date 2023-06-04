@@ -1,16 +1,21 @@
 .education h2 {
   color: #e6e3e3;
 }
+
 .education,
 .list-edu{
   gap: 20px;
   padding: 0px 40px 30px 40px;
   color:white;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 .list-edu {
-  gap: 20px;
+  gap: 10px;
   height: 100%;
   border-left: solid 1px #604be6;
+
+  
 }
 .un-sum li {
   font-size: 18px;
@@ -22,6 +27,8 @@
 
 .edu-div{
  padding: 10px;
- background-color: rgba(31, 30, 30, 0.774);
-  border-bottom: 3px solid white;
+ background-color: rgba(19, 18, 18, 0.884);
+  border-bottom: 1px solid rgb(156, 149, 149);
+  border-radius: 12px;
+ 
 }

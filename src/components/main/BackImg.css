@@ -3,9 +3,9 @@
     height: 100%;
     position: absolute;
     right: 0px;
-    background-color: rgba(21, 21, 21, 0);
+     gap:20px;
     z-index: 1;
-    gap: 300px;
+    
 }
 .texts{
     filter: blur(0.1px);

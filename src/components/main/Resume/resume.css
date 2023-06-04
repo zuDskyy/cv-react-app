@@ -1,36 +1,46 @@
-.resume-wrap{
-    overflow: hidden;
+.resume-wrap {
+ 
+
 }
-.Resume{
+
+.Resume {
     width: 100%;
-    height: fit-content;
-   
+    
     padding: 0px 40px 30px 40px;
     gap: 30px;
     overflow: hidden;
-    color:white;
-}
-.Resume{
+    color: white;
     padding-top: 30px;
- 
 }
 
+
 .column-wrap {
-    gap: 40px;
+
     width: 50%;
 }
-.long-resume{
-    justify-content: space-between;
+
+
+
+.social_bottom {
+    display: none;
 }
+
 @media only screen and (max-width: 600px) {
-    .long-resume{
+    .long-resume {
         display: flex;
         flex-direction: column !important;
         width: 100%;
     }
-    .column-wrap{
+
+    .column-wrap {
         width: 100% !important;
     }
 
+
 }
 
+@media screen and (max-width: 990px) {
+    .social_bottom {
+        display: block;
+    }
+}

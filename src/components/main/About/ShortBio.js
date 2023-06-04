@@ -13,10 +13,12 @@ const Bio = () => {
     <div className="short-bio column">
       <h2 data-aos="fade-left">Front-end Web Developer</h2>
       <p data-aos="fade-left">
-        I am a frontend developer, I have worked on many projects, I am also
-        self-motivated and I am ready to face any challenges. Currently, I am
-        interested in a job where I will deepen my knowledge and raise my
-        qualifi cations .
+        Hello! I'm Zurab, a Front-end Developer committed to designing
+        captivating and user-friendly websites. My expertise lies in HTML, CSS,
+        JavaScript, and React, enabling me to transform ideas into visually
+        stunning digital experiences. Feel free to explore the projects I've
+        worked on below, and don't hesitate to reach out for collaboration or
+        any inquiries you may have.
       </p>
       <BioList />
     </div>

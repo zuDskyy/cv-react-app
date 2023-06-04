@@ -6,7 +6,7 @@
     padding: 30px 40px 30px 40px;
     color:white;
     background-color: rgba(21, 21, 21, 0.397);
-    gap: 30px;
+    gap: 10px;
     transition: all 1s ease-in-out;
     overflow: hidden;
     border-bottom: 1px solid white;

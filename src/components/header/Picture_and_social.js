@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import './Header.css';
 import SocialLink from "./Social_Links";
 import MyName from "./MyName";
@@ -9,13 +9,19 @@ import MyName from "./MyName";
 //   import Portfolio from "../main/Portfolio/Portfolio"
 
 const Picture_and_social = () => {
+
+
+
     return (
-        <div className="pic-social column">
+        <>
+     
+        <div   className= "pic-social column" >
             {/* <div className="profile-pic"></div> */}
             <MyName name="Zurab Dalakishvili"/>
             <SocialLink />
             
         </div>
+        </>
     )
 }
 

@@ -12,7 +12,7 @@ const About = () => {
     return (
         <div data-aos="fade-up" id="About-Scroll" className="About column">
             <h1>About</h1>
-            <p>I am Front-end developer with zero experience, but I am not afraid any challenges. I like to learn new things, mostly about programming languages. I am self motivated person and do everything to reach maximum in my life.</p>
+
             <TextImg />
         </div>
     )

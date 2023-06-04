@@ -6,6 +6,7 @@ import "./resume.css";
 import Summary from "./Summary";
 import Education from "./Education";
 import Profession from "./Professions";
+import Social from "./Social";
 
 const Resume = () => {
   useEffect(() => {
@@ -16,19 +17,21 @@ const Resume = () => {
       <div data-aos="fade-right" className="Resume column">
         <h1>Resume</h1>
         <p>
-          I use the React library, write single-page applications( on mini
-          projects) and try to create the best possible client-side UX. I have a
-          lot of experience to work with team, but in different professions. I
-          know English(B1) and Russian(A2)
+          As a Front-end Developer, I specialize in utilizing the React library
+          to develop efficient single-page applications with a focus on
+          delivering exceptional client-side user experiences. With my
+          experience collaborating in various professional environments, I bring
+          a strong teamwork mindset to every project. Additionally, I am
+          proficient in English  and Russian .
         </p>
       </div>
       <div className="long-resume row">
         <div className="column-wrap column">
-          <Summary />
           <Education />
         </div>
         <Profession />
       </div>
+      
     </div>
   );
 };

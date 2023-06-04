@@ -7,8 +7,10 @@
 }
 .prof-div{
   padding: 10px;
-  background-color: rgba(31, 30, 30, 0.589);
-   border-bottom: 3px solid white;
+  background-color: rgba(17, 16, 16, 0.589);
+   border-bottom: 1px solid rgb(128, 120, 120);
+   border-radius: 12px;
+ 
  }
 .profession,
 .list-edu {
